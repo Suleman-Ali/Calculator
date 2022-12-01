@@ -83,7 +83,7 @@ async function StartAgain() {
         message: "Do you want to continue ? Press (y/n):"
     })
     }while(again.restart == 'y' || again.restart == 'Y' || again.restart == "yes" || again.restart == 'Yes' || again.restart == 'YES')
-    console.log("\n Thank You For Using Calculator.")
+    console.log("\n Thank You For Using Calculation.")
 }
 StartAgain();
 
